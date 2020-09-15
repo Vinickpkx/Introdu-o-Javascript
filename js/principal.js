@@ -37,3 +37,11 @@ for (let i = 0; i < pacientes.length; i++) {
         tdImc.textContent = imc.toFixed(2);
     }
 }
+
+let botaoAdicionar = document.querySelector("#adicionar-paciente");
+
+botaoAdicionar.addEventListener("click", (event) => {
+    event.preventDefault();
+    console.log("oi, cliquei no botão");
+
+});

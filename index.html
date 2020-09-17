@@ -7,13 +7,14 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <h1 class="titulo">Aparecida Nutrição</h1>
+            <h2 class="titulo">Aparecida Nutrição</h2>
         </div>
     </header>
     <main>
@@ -30,7 +31,7 @@
                     </tr>
                 </thead>
                 <tbody id="tabela-pacientes">
-                    <tr class="paciente" id="primeiroPaciente">
+                    <tr class="paciente" id="primeiro-paciente">
                         <td class="info-nome">Paulo</td>
                         <td class="info-peso">100</td>
                         <td class="info-altura">2.00</td>
@@ -73,10 +74,12 @@
 
         </section>
     </main>
+
     <section class="container">
         <h2 id="titulo-form">Adicionar novo paciente</h2>
-        <form id="formAdiciona">
-            <div class="grupo">
+        <ul id="mensagens-erro"></ul>
+        <form id="form-adiciona">
+            <div class="">
                 <label for="nome">Nome:</label>
                 <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente" class="campo">
             </div>
@@ -97,7 +100,7 @@
         </form>
     </section>
 
-    <script src="js/calculaImc.js"></script>
+    <script src="js/calcula-imc.js"></script>
     <script src="js/form.js"></script>
 
 </body>
